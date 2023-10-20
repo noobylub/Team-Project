@@ -1,0 +1,245 @@
+.login-page {
+  background-color: #fafbfc;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.login-page .overlap-wrapper {
+  background-color: #fafbfc;
+  width: 1920px;
+  height: 1080px;
+}
+
+.login-page .overlap {
+  height: 1080px;
+  background-image: url(https://c.animaapp.com/rMbTOk2j/img/background.svg);
+  background-size: 100% 100%;
+}
+
+.login-page .main {
+  position: relative;
+  width: 400px;
+  height: 500px;
+  top: 290px;
+  left: 751px;
+  background-color: #ffffff;
+  border-radius: 3px;
+  box-shadow: 0px 0px 10px #0000001a;
+}
+
+.login-page .overlap-group {
+  position: absolute;
+  width: 320px;
+  height: 131px;
+  top: 51px;
+  left: 40px;
+}
+
+.login-page .div-css {
+  position: absolute;
+  width: 320px;
+  height: 84px;
+  top: 47px;
+  left: 0;
+}
+
+.login-page .div-css-azino {
+  position: relative;
+  width: 138px;
+  height: 44px;
+  top: 40px;
+  left: 91px;
+}
+
+.login-page .heading-log-in-to {
+  position: absolute;
+  width: 138px;
+  height: 20px;
+  top: 23px;
+  left: 0;
+  font-family: "Roboto", Helvetica;
+  font-weight: 600;
+  color: #172b4d;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: -0.05px;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.login-page .image {
+  position: absolute;
+  width: 300px;
+  height: 63px;
+  top: 0;
+  left: 8px;
+  object-fit: cover;
+}
+
+.login-page .div {
+  position: absolute;
+  width: 320px;
+  height: 95px;
+  top: 204px;
+  left: 40px;
+}
+
+.login-page .form {
+  position: absolute;
+  width: 320px;
+  height: 88px;
+  top: 0;
+  left: 0;
+}
+
+.login-page .presentation-css {
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 3px;
+  overflow: hidden;
+  border: 2px solid;
+  border-color: #f37820;
+}
+
+.login-page .input {
+  position: relative;
+  width: 304px;
+  height: 16px;
+  top: 12px;
+  left: 8px;
+  border: none;
+  background: none;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: #6b778c;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  padding: 0;
+  padding-left: 0;
+}
+
+.login-page .presentation-css-wrapper {
+  position: absolute;
+  width: 320px;
+  height: 40px;
+  top: 55px;
+  left: 0;
+}
+
+.login-page .div-wrapper {
+  position: relative;
+  width: 304px;
+  height: 16px;
+  top: 12px;
+  left: 8px;
+}
+
+.login-page .text-wrapper {
+  width: 145px;
+  position: absolute;
+  height: 16px;
+  top: -1px;
+  left: 0;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: #6b778c;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.login-page .button {
+  position: absolute;
+  width: 320px;
+  height: 40px;
+  top: 321px;
+  left: 40px;
+  background-color: #f37820;
+  border-radius: 3px;
+  all: unset;
+  box-sizing: border-box;
+}
+
+.login-page .span-css {
+  position: relative;
+  width: 296px;
+  height: 40px;
+  left: 12px;
+}
+
+.login-page .text-wrapper-2 {
+  position: absolute;
+  width: 56px;
+  height: 16px;
+  top: 11px;
+  left: 120px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 40px;
+  white-space: nowrap;
+}
+
+.login-page .list {
+  position: absolute;
+  width: 320px;
+  height: 20px;
+  top: 382px;
+  left: 40px;
+}
+
+.login-page .item-link-can-t-log {
+  width: 78px;
+  left: 54px;
+  position: absolute;
+  height: 20px;
+  top: -1px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: #f37820;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.login-page .text-wrapper-3 {
+  position: absolute;
+  width: 5px;
+  height: 20px;
+  top: -1px;
+  left: 139px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: #6b778c;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.login-page .item-link-create-an {
+  width: 115px;
+  left: 152px;
+  position: absolute;
+  height: 20px;
+  top: -1px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: #f37820;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}

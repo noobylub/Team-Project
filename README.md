@@ -15,8 +15,11 @@ And install Live Preview.
 
 # Copying from Figma 
 Open developer engine in Figma
+
 Go to plugins and install Anima 
+
 Open code in sandbox 
+
 Copy the code and put them into respective file with the same name. 
 Run the files
 

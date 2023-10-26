@@ -16,20 +16,4 @@ button:focus-visible {
 a {
   text-decoration: none;
 }
-@import url("https://fonts.googleapis.com/css?family=Roboto:400");
-@font-face {
-  font-family: "Arial-Regular";
-  src: url("https://anima-uploads.s3.amazonaws.com/projects/63ef0d4311ab2525e10bd15a/fonts/arial-regular.ttf")
-    format("truetype");
-}
-
-@font-face {
-  font-family: "Arial-Black";
-  src: url("https://anima-uploads.s3.amazonaws.com/5b36da2d842b010009abe627/Arial Black.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Arial-Bold";
-  src: url("https://anima-uploads.s3.amazonaws.com/projects/622cf300b3519bff6181cd8f/fonts/fontsfree-net-arial-bold.ttf")
-    format("truetype");
-}
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700|Lato:700,400");

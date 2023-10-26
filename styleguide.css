@@ -1,15 +1,11 @@
 :root {
   --x-100: rgba(247, 250, 252, 1);
-  --x-400: rgba(104, 211, 145, 1);
-  --dark-gray: rgba(130, 134, 137, 1);
+  --x-300: rgba(226, 232, 240, 1);
+  --x-400: rgba(203, 213, 224, 1);
   --dark-blue: rgba(23, 62, 85, 1);
-  --green-3: rgba(111, 207, 151, 1);
-  --red: rgba(235, 87, 87, 1);
-  --components-caption-color-grey: rgba(156, 156, 156, 1);
-  --dark: rgba(51, 51, 51, 1);
-  --green-1: rgba(74, 175, 5, 1);
   --medium-orange: rgba(243, 114, 39, 1);
-  --components-border-color: rgba(229, 229, 229, 1);
+  --dark-gray: rgba(130, 134, 137, 1);
+  --green-3: rgba(111, 207, 151, 1);
   --regular-16-font-family: "Roboto-Regular", Helvetica;
   --regular-16-font-weight: 400;
   --regular-16-font-size: 16px;
@@ -34,12 +30,6 @@
   --regular-39-letter-spacing: 0px;
   --regular-39-line-height: 24px;
   --regular-39-font-style: normal;
-  --caption-montserrat-font-family: "Montserrat-Regular", Helvetica;
-  --caption-montserrat-font-weight: 400;
-  --caption-montserrat-font-size: 12px;
-  --caption-montserrat-letter-spacing: 0.4000000059604645px;
-  --caption-montserrat-line-height: 16px;
-  --caption-montserrat-font-style: normal;
   --colors-variable-1697725897272: rgba(255, 255, 255, 1);
   --colors-variable-1697725897277: rgba(51, 51, 51, 1);
   --colors-variable-1697725897279: rgba(0, 102, 255, 1);

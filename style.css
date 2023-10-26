@@ -971,3 +971,82 @@
   top: 9px;
   left: 70px;
 }
+/* Base styles for larger screens */
+.to-do-list {
+  background-color: #f7fafa;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.to-do-list .div {
+  background-color: #f7fafa;
+  max-width: 1440px;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+/* Styles for tablets (768px to 1023px) */
+@media screen and (max-width: 1023px) {
+  .to-do-list .overlap {
+    display: none;
+  }
+
+  .to-do-list .completed,
+  .to-do-list .to-do {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .to-do-list .overlap-4,
+  .to-do-list .reports-back-2 {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .to-do-list .top-bar {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+/* Styles for mobile devices (up to 767px) */
+@media screen and (max-width: 767px) {
+  .to-do-list .overlap-group {
+    display: none;
+  }
+
+  .to-do-list .completed,
+  .to-do-list .to-do {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .to-do-list .reports-back,
+  .to-do-list .reports-back-2 {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+/* You can add more media queries for smaller screens as needed */
+
+/* Common responsive styles for all screens */
+.to-do-list .overlap-group-2 {
+  max-width: 100%;
+  width: auto;
+}
+
+.to-do-list .items {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+.to-do-list .element {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}

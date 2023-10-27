@@ -17,6 +17,8 @@
     gap: 0px;
   }
 }
+
+/* Navigation bar */
 .nav-bar {
   display: flex;
   flex-direction: column;
@@ -135,6 +137,9 @@
     margin-top: 40px;
   }
 }
+
+
+/* Main body CSS  */
 .main-body {
   display: flex;
   flex-direction: column;

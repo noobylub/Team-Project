@@ -1,8 +1,9 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
-* {
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
-}
+* { 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+ } 
 html,
 body {
   margin: 0px;
@@ -16,4 +17,124 @@ button:focus-visible {
 a {
   text-decoration: none;
 }
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,700|Lato:700,400");
+
+/* The navigation bar  */
+.nav-bar {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 5%;
+  margin-left: 0px;
+   /* height: 100vh;
+  position: fixed;  */
+  position: fixed;
+}
+@media (max-width: 991px) {
+  .column {
+    width: 100%;
+  }
+}
+.div-3 {
+  background-color: var(--Dark-Blue, #173e55);
+  display: flex;
+  width: 75px;
+  max-width: 100%;
+  flex-grow: 1;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 11px 10px 40px 9px;
+}
+.div-4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+}
+.img {
+  aspect-ratio: 0.92;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  overflow: hidden;
+  align-self: stretch;
+}
+.img-2 {
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: center;
+  width: 20px;
+  overflow: hidden;
+  align-self: center;
+  margin-top: 33px;
+  max-width: 100%;
+}
+.img-3 {
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: center;
+  width: 30px;
+  overflow: hidden;
+  align-self: center;
+  margin-top: 41px;
+  max-width: 100%;
+}
+@media (max-width: 991px) {
+  .img-3 {
+    margin-top: 40px;
+  }
+}
+.img-4 {
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: center;
+  width: 30px;
+  overflow: hidden;
+  align-self: center;
+  margin-top: 45px;
+  max-width: 100%;
+}
+@media (max-width: 991px) {
+  .img-4 {
+    margin-top: 40px;
+  }
+}
+.img-5 {
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: center;
+  width: 30px;
+  overflow: hidden;
+  align-self: center;
+  margin-top: 41px;
+  max-width: 100%;
+}
+@media (max-width: 991px) {
+  .img-5 {
+    margin-top: 40px;
+  }
+}
+.img-6 {
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  overflow: hidden;
+  align-self: center;
+  margin-top: 34px;
+  flex-grow: 1;
+}
+.img-7 {
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: center;
+  width: 30px;
+  overflow: hidden;
+  align-self: center;
+  margin-top: 618px;
+  max-width: 100%;
+}
+@media (max-width: 991px) {
+  .img-7 {
+    margin-top: 40px;
+  }
+}
+

@@ -288,7 +288,7 @@
     max-width: 100%;
   }
 }
-.div-16 {
+.container-top-part {
   align-self: center;
   display: flex;
   width: 100%;
@@ -296,10 +296,10 @@
   align-items: flex-start;
   justify-content: space-between;
   gap: 20px;
-  padding: 0 20px;
+  padding: 10px 20px;
 }
 @media (max-width: 991px) {
-  .div-16 {
+  .container-top-part {
     max-width: 100%;
     flex-wrap: wrap;
   }
@@ -416,7 +416,7 @@
     text-wrap: initial;
   }
 }
-.div-26 {
+.headings-main-wrapper {
   background-color: #f7faf9;
   align-self: stretch;
   display: flex;
@@ -425,7 +425,7 @@
   padding: 23px 20px;
 }
 @media (max-width: 991px) {
-  .div-26 {
+  .headings-main-wrapper {
     max-width: 100%;
   }
 }
@@ -505,7 +505,7 @@
     text-wrap: initial;
   }
 }
-.div-35 {
+.forum-wrapper {
   align-self: center;
   display: flex;
   margin-top: 20px;
@@ -517,7 +517,7 @@
   padding: 0 20px;
 }
 @media (max-width: 991px) {
-  .div-35 {
+  .forum-wrapper {
     max-width: 100%;
     flex-wrap: wrap;
     justify-content: center;

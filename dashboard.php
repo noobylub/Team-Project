@@ -9,34 +9,36 @@
     <body>
         <div class="div">
             <div class="div-2">
+
                 <!-- The navigation bar -->
               <div class="nav-bar">
-                <div class="div-3">
-                  <div class="div-4">
+                <div class="placeholder-nav">
+                  <div class="top-part">
                     <img
                       loading="lazy"
                       srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/3db88862-e417-4147-b5c5-ca15dca47159?apiKey=abf0af8966e849128ba2d90033e91cde&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/3db88862-e417-4147-b5c5-ca15dca47159?apiKey=abf0af8966e849128ba2d90033e91cde&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/3db88862-e417-4147-b5c5-ca15dca47159?apiKey=abf0af8966e849128ba2d90033e91cde&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/3db88862-e417-4147-b5c5-ca15dca47159?apiKey=abf0af8966e849128ba2d90033e91cde&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/3db88862-e417-4147-b5c5-ca15dca47159?apiKey=abf0af8966e849128ba2d90033e91cde&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/3db88862-e417-4147-b5c5-ca15dca47159?apiKey=abf0af8966e849128ba2d90033e91cde&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/3db88862-e417-4147-b5c5-ca15dca47159?apiKey=abf0af8966e849128ba2d90033e91cde&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/3db88862-e417-4147-b5c5-ca15dca47159?apiKey=abf0af8966e849128ba2d90033e91cde&"
-                      class="img"
+                      class="main-logo"
                     />
                     <img
                       loading="lazy"
                       srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/d4a1b623-9a74-437e-a8b9-81ed01f18915?apiKey=abf0af8966e849128ba2d90033e91cde&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/d4a1b623-9a74-437e-a8b9-81ed01f18915?apiKey=abf0af8966e849128ba2d90033e91cde&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/d4a1b623-9a74-437e-a8b9-81ed01f18915?apiKey=abf0af8966e849128ba2d90033e91cde&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/d4a1b623-9a74-437e-a8b9-81ed01f18915?apiKey=abf0af8966e849128ba2d90033e91cde&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/d4a1b623-9a74-437e-a8b9-81ed01f18915?apiKey=abf0af8966e849128ba2d90033e91cde&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/d4a1b623-9a74-437e-a8b9-81ed01f18915?apiKey=abf0af8966e849128ba2d90033e91cde&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/d4a1b623-9a74-437e-a8b9-81ed01f18915?apiKey=abf0af8966e849128ba2d90033e91cde&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/d4a1b623-9a74-437e-a8b9-81ed01f18915?apiKey=abf0af8966e849128ba2d90033e91cde&"
-                      class="img-2"
+                      class="dashboard"
                     />
                     <img
                       loading="lazy"
                       srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/a29d6aef-3dc4-481f-8920-d0b19102f9e3?apiKey=abf0af8966e849128ba2d90033e91cde&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/a29d6aef-3dc4-481f-8920-d0b19102f9e3?apiKey=abf0af8966e849128ba2d90033e91cde&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/a29d6aef-3dc4-481f-8920-d0b19102f9e3?apiKey=abf0af8966e849128ba2d90033e91cde&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/a29d6aef-3dc4-481f-8920-d0b19102f9e3?apiKey=abf0af8966e849128ba2d90033e91cde&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/a29d6aef-3dc4-481f-8920-d0b19102f9e3?apiKey=abf0af8966e849128ba2d90033e91cde&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/a29d6aef-3dc4-481f-8920-d0b19102f9e3?apiKey=abf0af8966e849128ba2d90033e91cde&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/a29d6aef-3dc4-481f-8920-d0b19102f9e3?apiKey=abf0af8966e849128ba2d90033e91cde&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/a29d6aef-3dc4-481f-8920-d0b19102f9e3?apiKey=abf0af8966e849128ba2d90033e91cde&"
-                      class="img-3"
+                      class="statistic"
                     />
                     <img
                       loading="lazy"
                       srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/eff17cda-0f3f-4cb3-8129-27d1169b796a?apiKey=abf0af8966e849128ba2d90033e91cde&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/eff17cda-0f3f-4cb3-8129-27d1169b796a?apiKey=abf0af8966e849128ba2d90033e91cde&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/eff17cda-0f3f-4cb3-8129-27d1169b796a?apiKey=abf0af8966e849128ba2d90033e91cde&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/eff17cda-0f3f-4cb3-8129-27d1169b796a?apiKey=abf0af8966e849128ba2d90033e91cde&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/eff17cda-0f3f-4cb3-8129-27d1169b796a?apiKey=abf0af8966e849128ba2d90033e91cde&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/eff17cda-0f3f-4cb3-8129-27d1169b796a?apiKey=abf0af8966e849128ba2d90033e91cde&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/eff17cda-0f3f-4cb3-8129-27d1169b796a?apiKey=abf0af8966e849128ba2d90033e91cde&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/eff17cda-0f3f-4cb3-8129-27d1169b796a?apiKey=abf0af8966e849128ba2d90033e91cde&"
-                      class="img-4"
+                      class="files "
+                      
                     />
                     <img
                       loading="lazy"
                       srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/73d3afb7-932f-4ec3-a1f5-c5400f3886e7?apiKey=abf0af8966e849128ba2d90033e91cde&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/73d3afb7-932f-4ec3-a1f5-c5400f3886e7?apiKey=abf0af8966e849128ba2d90033e91cde&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/73d3afb7-932f-4ec3-a1f5-c5400f3886e7?apiKey=abf0af8966e849128ba2d90033e91cde&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/73d3afb7-932f-4ec3-a1f5-c5400f3886e7?apiKey=abf0af8966e849128ba2d90033e91cde&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/73d3afb7-932f-4ec3-a1f5-c5400f3886e7?apiKey=abf0af8966e849128ba2d90033e91cde&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/73d3afb7-932f-4ec3-a1f5-c5400f3886e7?apiKey=abf0af8966e849128ba2d90033e91cde&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/73d3afb7-932f-4ec3-a1f5-c5400f3886e7?apiKey=abf0af8966e849128ba2d90033e91cde&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/73d3afb7-932f-4ec3-a1f5-c5400f3886e7?apiKey=abf0af8966e849128ba2d90033e91cde&"
-                      class="img-5"
+                      class="employee"
                     />
                     <img
                       loading="lazy"
@@ -51,6 +53,10 @@
                   />
                 </div>
               </div>
+
+
+
+
 
               <div class="main-body">
                 <div class="div-5">
@@ -80,6 +86,7 @@
                       </div>
                     </div>
                   
+                    
 
                 </div>
                   <!-- The container for all the topics, including the top and the main part-->

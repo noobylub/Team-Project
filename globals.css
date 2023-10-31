@@ -34,7 +34,7 @@ a {
     width: 100%;
   }
 }
-.div-3 {
+.placeholder-nav {
   background-color: var(--Dark-Blue, #173e55);
   display: flex;
   width: 75px;
@@ -44,12 +44,12 @@ a {
   margin: 0 auto;
   padding: 11px 10px 40px 9px;
 }
-.div-4 {
+.top-part {
   align-self: stretch;
   display: flex;
   flex-direction: column;
 }
-.img {
+.main-logo {
   aspect-ratio: 0.92;
   object-fit: cover;
   object-position: center;
@@ -57,7 +57,7 @@ a {
   overflow: hidden;
   align-self: stretch;
 }
-.img-2 {
+.dashboard {
   aspect-ratio: 1;
   object-fit: cover;
   object-position: center;
@@ -66,8 +66,16 @@ a {
   align-self: center;
   margin-top: 33px;
   max-width: 100%;
+  transition: 1s;
 }
-.img-3 {
+.dashboard:hover{
+  cursor: pointer;
+  padding: 5px;
+  width: 100%;
+  background-color: #f37227;
+}
+
+.statistic {
   aspect-ratio: 1;
   object-fit: cover;
   object-position: center;
@@ -76,13 +84,21 @@ a {
   align-self: center;
   margin-top: 41px;
   max-width: 100%;
+  transition: 1s;
+  
 }
 @media (max-width: 991px) {
-  .img-3 {
+  .statistic {
     margin-top: 40px;
   }
 }
-.img-4 {
+.statistic:hover{
+  cursor: pointer;
+  width: 100%;
+  background-color: #f37227;
+}
+
+.files {
   aspect-ratio: 1;
   object-fit: cover;
   object-position: center;
@@ -91,13 +107,22 @@ a {
   align-self: center;
   margin-top: 45px;
   max-width: 100%;
+  transition: 1s;
 }
 @media (max-width: 991px) {
-  .img-4 {
+  .files {
     margin-top: 40px;
   }
 }
-.img-5 {
+.files:hover{
+  color: white;
+  cursor: pointer;
+  width: 100%;
+  background-color: #f37227;
+}
+
+
+.employee {
   aspect-ratio: 1;
   object-fit: cover;
   object-position: center;
@@ -106,12 +131,20 @@ a {
   align-self: center;
   margin-top: 41px;
   max-width: 100%;
+  transition: 1s;
 }
 @media (max-width: 991px) {
-  .img-5 {
+  .employee {
     margin-top: 40px;
   }
 }
+.employee:hover{
+  cursor: pointer;
+  width: 100%;
+  background-color: #f37227;
+}
+
+
 .img-6 {
   aspect-ratio: 1;
   object-fit: cover;
@@ -137,6 +170,8 @@ a {
     margin-top: 40px;
   }
 }
+
+
 
 
 /* The very top bar */

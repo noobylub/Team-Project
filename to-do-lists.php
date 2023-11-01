@@ -26,8 +26,10 @@
               />
               <img
                 loading="lazy"
+                style="padding: 5px;width:100%;background-color:#f37227"
                 srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/d4a1b623-9a74-437e-a8b9-81ed01f18915?apiKey=abf0af8966e849128ba2d90033e91cde&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/d4a1b623-9a74-437e-a8b9-81ed01f18915?apiKey=abf0af8966e849128ba2d90033e91cde&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/d4a1b623-9a74-437e-a8b9-81ed01f18915?apiKey=abf0af8966e849128ba2d90033e91cde&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/d4a1b623-9a74-437e-a8b9-81ed01f18915?apiKey=abf0af8966e849128ba2d90033e91cde&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/d4a1b623-9a74-437e-a8b9-81ed01f18915?apiKey=abf0af8966e849128ba2d90033e91cde&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/d4a1b623-9a74-437e-a8b9-81ed01f18915?apiKey=abf0af8966e849128ba2d90033e91cde&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/d4a1b623-9a74-437e-a8b9-81ed01f18915?apiKey=abf0af8966e849128ba2d90033e91cde&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/d4a1b623-9a74-437e-a8b9-81ed01f18915?apiKey=abf0af8966e849128ba2d90033e91cde&"
-                class="dashboard"
+                class="dashboard "
+                onClick="document.location.href='./to-do-lists.php'"
               />
               <img
                 loading="lazy"
@@ -38,12 +40,14 @@
                 loading="lazy"
                 srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/eff17cda-0f3f-4cb3-8129-27d1169b796a?apiKey=abf0af8966e849128ba2d90033e91cde&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/eff17cda-0f3f-4cb3-8129-27d1169b796a?apiKey=abf0af8966e849128ba2d90033e91cde&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/eff17cda-0f3f-4cb3-8129-27d1169b796a?apiKey=abf0af8966e849128ba2d90033e91cde&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/eff17cda-0f3f-4cb3-8129-27d1169b796a?apiKey=abf0af8966e849128ba2d90033e91cde&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/eff17cda-0f3f-4cb3-8129-27d1169b796a?apiKey=abf0af8966e849128ba2d90033e91cde&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/eff17cda-0f3f-4cb3-8129-27d1169b796a?apiKey=abf0af8966e849128ba2d90033e91cde&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/eff17cda-0f3f-4cb3-8129-27d1169b796a?apiKey=abf0af8966e849128ba2d90033e91cde&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/eff17cda-0f3f-4cb3-8129-27d1169b796a?apiKey=abf0af8966e849128ba2d90033e91cde&"
                 class="files "
+                onClick="document.location.href='./project-progression.php'"
                 
               />
               <img
                 loading="lazy"
                 srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/73d3afb7-932f-4ec3-a1f5-c5400f3886e7?apiKey=abf0af8966e849128ba2d90033e91cde&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/73d3afb7-932f-4ec3-a1f5-c5400f3886e7?apiKey=abf0af8966e849128ba2d90033e91cde&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/73d3afb7-932f-4ec3-a1f5-c5400f3886e7?apiKey=abf0af8966e849128ba2d90033e91cde&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/73d3afb7-932f-4ec3-a1f5-c5400f3886e7?apiKey=abf0af8966e849128ba2d90033e91cde&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/73d3afb7-932f-4ec3-a1f5-c5400f3886e7?apiKey=abf0af8966e849128ba2d90033e91cde&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/73d3afb7-932f-4ec3-a1f5-c5400f3886e7?apiKey=abf0af8966e849128ba2d90033e91cde&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/73d3afb7-932f-4ec3-a1f5-c5400f3886e7?apiKey=abf0af8966e849128ba2d90033e91cde&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/73d3afb7-932f-4ec3-a1f5-c5400f3886e7?apiKey=abf0af8966e849128ba2d90033e91cde&"
                 class="employee"
+                onClick="document.location.href='./forum.php'"
               />
               <img
                 loading="lazy"

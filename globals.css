@@ -18,6 +18,7 @@ a {
   text-decoration: none;
 }
 
+
 /* The navigation bar  */
 .nav-bar {
   display: flex;
@@ -34,6 +35,10 @@ a {
     width: 100%;
   }
 }
+
+/* .nav-bar img{
+  background-color: red;
+} */
 .placeholder-nav {
   background-color: var(--Dark-Blue, #173e55);
   display: flex;
@@ -57,6 +62,13 @@ a {
   overflow: hidden;
   align-self: stretch;
 }
+
+.active{
+  padding: 5px;
+  background-color: #f37227;
+  border-radius: 20px;
+}
+
 .dashboard {
   aspect-ratio: 1;
   object-fit: cover;
@@ -74,6 +86,7 @@ a {
   width: 100%;
   background-color: #f37227;
 }
+
 
 .statistic {
   aspect-ratio: 1;

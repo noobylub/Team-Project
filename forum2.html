@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forum</title>
+    <style>
+        /* This is the CSS styling for the page. */
+        body {
+            background-color: lightgrey;
+        }
+
+        .employeetable {
+            background-color: white;
+            border: 1px solid lightgrey;
+            padding: 10px;
+        }
+
+        .top-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: white;
+            border: 1px solid lightgrey;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        .orange-box {
+            background-color: orange;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th,
+        td {
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .grey-box {
+            background-color: lightgrey;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        .white-box-container {
+            background-color: lightgrey;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        .search-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .search-container input[type=text] {
+            padding: 6px;
+            margin-top: 8px;
+            margin-left: 5px;
+            font-size: 17px;
+            border: 1px solid grey;
+            border-radius: 5px;
+            width: 200px;
+            outline: none;
+        }
+
+        .search-container input[type=text]:focus {
+            border: 1px solid grey;
+        }
+
+        .search-container i {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="top-bar">
+        <!-- This is the header of the page. -->
+        <h1 style="margin: 0;">Forum</h1>
+        <div class="orange-box">
+            <!-- This is a box that displays the name of the current user. -->
+            <p>Noah</p>
+        </div>
+    </div>
+    <div class="employeetable">
+        <div class="search-container">
+            <!-- This is the search bar for filtering topics. -->
+            <h2 style="margin: 0;">Topics</h2>
+            <div style="display: flex; align-items: center;">
+                <input type="text" id="search-input" onkeyup="filterTopics()" placeholder="Search for topics...">
+            </div>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <!-- These are the column headers for the topic table. -->
+                    <th>Author</th>
+                    <th>Created</th>
+                    <th>Topic</th>
+                    <th>Subject</th>
+                    <th>Comments</th>
+                </tr>
+            </thead>
+            <tbody id="topic-list"></tbody>
+        </table>
+    </div>
+    <script>
+        // placeholder data for topics
+        const topics = [
+            { author: "John Doe", created: "01/01/2022", topic: "My first post", subject: "Software", comments: 5 },
+            { author: "Jane Smith", created: "02/01/2022", topic: "My second post", subject: "Hardware", comments: 10 },
+            { author: "Bob Johnson", created: "03/01/2022", topic: "My third post", subject: "Networking", comments: 2 },
+            { author: "Alice Lee", created: "04/01/2022", topic: "My fourth post", subject: "Security", comments: 7 },
+            { author: "David Kim", created: "05/01/2022", topic: "My fifth post", subject: "Cloud Computing", comments: 3 }
+        ];
+
+        const topicList = document.getElementById("topic-list");
+
+        topics.forEach(topic => {
+            // This loop creates a row for each topic in the table.
+            const row = document.createElement("tr");
+            const authorCell = document.createElement("td");
+            const createdCell = document.createElement("td");
+            const topicCell = document.createElement("td");
+            const subjectCell = document.createElement("td");
+            const commentsCell = document.createElement("td");
+            authorCell.textContent = topic.author;
+            createdCell.textContent = topic.created;
+            topicCell.textContent = topic.topic;
+            subjectCell.textContent = topic.subject;
+            commentsCell.textContent = topic.comments;
+            row.appendChild(authorCell);
+            row.appendChild(createdCell);
+            row.appendChild(topicCell);
+            row.appendChild(subjectCell);
+            row.appendChild(commentsCell);
+            topicList.appendChild(row);
+        });
+
+        function filterTopics() {
+            // This function filters the topic table based on the search input.
+            const input = document.getElementById("search-input");
+            const filter = input.value.toUpperCase();
+            const rows = topicList.getElementsByTagName("tr");
+
+            for (let i = 0; i < rows.length; i++) {
+                const author = rows[i].getElementsByTagName("td")[0];
+                const created = rows[i].getElementsByTagName("td")[1];
+                const topic = rows[i].getElementsByTagName("td")[2];
+                const subject = rows[i].getElementsByTagName("td")[3];
+                const comments = rows[i].getElementsByTagName("td")[4];
+                const authorValue = author.textContent || author.innerText;
+                const createdValue = created.textContent || created.innerText;
+                const topicValue = topic.textContent || topic.innerText;
+                const subjectValue = subject.textContent || subject.innerText;
+                const commentsValue = comments.textContent || comments.innerText;
+
+                if (authorValue.toUpperCase().indexOf(filter) > -1 || createdValue.toUpperCase().indexOf(filter) > -1 || topicValue.toUpperCase().indexOf(filter) > -1 || subjectValue.toUpperCase().indexOf(filter) > -1 || commentsValue.toUpperCase().indexOf(filter) > -1) {
+                    rows[i].style.display = "";
+                } else {
+                    rows[i].style.display = "none";
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>

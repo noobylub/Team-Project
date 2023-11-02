@@ -9,7 +9,9 @@
     <body>
         <div class="div">
             <div class="div-2">
-
+              <h1>OSMOTHISNF </h1>
+              <h2>SOmethsladfj lasj flksdjfsda fsda  sdaf </h2>
+              
                 <!-- The navigation bar -->
               <div class="nav-bar">
                 <div class="placeholder-nav">
